@@ -10,7 +10,7 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
-      // plugins(on, config);
+      plugins(on, config);
     },
     specPattern: [
       "BDD/e2e/feature/**/*.feature",
