@@ -14,7 +14,7 @@ module.exports = defineConfig({
     },
     specPattern: [
       "BDD/e2e/feature/**/*.feature",
-      "./lib/src/**/__tests__/*.test.{js,ts, jsx, tsx}",
+      "lib/src/**/__tests__/*.test.{js,ts, jsx, tsx}",
     ],
     supportFile: "BDD/support/e2e.{js,jsx,ts,tsx}",
     fixturesFolder: "BDD/fixtures",
